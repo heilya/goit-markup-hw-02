@@ -1,0 +1,101 @@
+/* Fonts
+font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+/* Header */
+.header {
+}
+.navigation {
+}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2e2f42;
+}
+.logo-accent {
+	color: #4d5ae5;
+}
+.menu {
+}
+.menu-item {
+}
+.menu-link {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+.contact {
+}
+.contact-item {
+}
+.mail,
+.phone {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+/* Hero section */
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/* Our benefits */
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-subtitle {
+}
+.benefits-text {
+}
+/* What are we doing */
+.examples {
+}
+.examples-title {
+}
+.examples-list-item {
+}
+/* Our Team */
+.page-team {
+}
+.page-team-title {
+}
+.page-team-list {
+}
+.page-team-list-item {
+}
+.page-team-subtitle {
+}
+.page-team-text {
+}
+/* Footer */
+.footer {
+}
+.footer-text {
+}
