@@ -60,6 +60,10 @@ font-family: "Roboto", sans-serif; */
 .hero-title {
 }
 .hero-btn {
+	cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
 }
 /* Our benefits */
 .benefits {
@@ -98,4 +102,23 @@ font-family: "Roboto", sans-serif; */
 .footer {
 }
 .footer-text {
+}
+/* Portfolio */
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-btn {
+}
+.portfolio-examples {
+}
+.portfolio-examples-item {
+}
+.portfolio-subtitle {
+}
+.portfolio-text {
 }
