@@ -1,7 +1,16 @@
-/* Fonts
-font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif; */
-
+:root {
+	--primary-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--primary-text-color: #2e2f42;
+	--secondary-text-color: #434455;
+	--active-color: #404bbf;
+	--brand-color: #4d5ae5;
+}
+body {
+	font-family: var(--primary-font);
+	color: var(--primary-text-color);
+	font-size: 16px;
+}
 .list {
 	list-style: none;
 }
@@ -9,12 +18,8 @@ font-family: "Roboto", sans-serif; */
 	text-decoration: none;
 }
 /* Header */
-.header {
-}
-.navigation {
-}
 .logo {
-	font-family: "Raleway", sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 800;
 	font-size: 18px;
@@ -23,102 +28,147 @@ font-family: "Roboto", sans-serif; */
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #2e2f42;
 }
 .logo-accent {
-	color: #4d5ae5;
-}
-.menu {
-}
-.menu-item {
+	color: var(--brand-color);
 }
 .menu-link {
-	font-family: "Roboto", sans-serif;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
 }
-.contact {
-}
-.contact-item {
+.menu-link:hover,
+.menu-link:focus {
+	color: var(--active-color);
 }
 .mail,
 .phone {
-	font-family: "Roboto", sans-serif;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--secondary-text-color);
+}
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+	color: var(--active-color);
 }
 /* Hero section */
 .hero {
+	background-color: #2e2f42;
 }
 .hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	color: #ffffff;
 }
 .hero-btn {
+	font-weight: 500;
+	line-height: 1.5;
+	display: flex;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background-color: var(--brand-color);
 	cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
+	background-color: var(--active-color);
 }
 /* Our benefits */
-.benefits {
+.hidden-title {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	margin: -1px;
 }
-.benefits-title {
-}
-.benefits-list {
-}
-.benefits-list-item {
-}
+
 .benefits-subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 .benefits-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
 }
 /* What are we doing */
-.examples {
-}
-.examples-title {
+.examples-title,
+.page-team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 }
 .examples-list-item {
 }
 /* Our Team */
 .page-team {
-}
-.page-team-title {
-}
-.page-team-list {
+	background-color: #f4f4fd;
 }
 .page-team-list-item {
+	background-color: #ffffff;
 }
 .page-team-subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 .page-team-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
 }
 /* Footer */
 .footer {
+	background-color: #2e2f42;
 }
 .footer-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #e7e9fc;
 }
 /* Portfolio */
-.portfolio {
-}
-.portfolio-title {
-}
-.portfolio-list {
-}
-.portfolio-list-item {
-}
 .portfolio-btn {
+	font-weight: 500;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--brand-color);
+	background-color: #f4f4fd;
+	cursor: pointer;
 }
-.portfolio-examples {
+.portfolio-btn:active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+	background: var(--active-color);
+	color: #ffffff;
 }
-.portfolio-examples-item {
-}
+
 .portfolio-subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 .portfolio-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
 }
