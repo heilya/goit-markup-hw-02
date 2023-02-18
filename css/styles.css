@@ -7,7 +7,6 @@
 	--brand-color: #4d5ae5;
 	--primari-page-color: #ffffff;
 	--secondary-page-color: #f4f4fd;
-	--secondary-background-color: #2e2f42;
 }
 body {
 	font-family: var(--primary-font);
@@ -59,7 +58,7 @@ body {
 }
 /* Hero section */
 .hero {
-	background-color: var(--secondary-background-color);
+	background-color: var(--primary-text-color);
 }
 .hero-title {
 	font-weight: 700;
@@ -150,7 +149,7 @@ body {
 	color: var(--secondary-page-color);
 }
 .footer {
-	background-color: var(--secondary-background-color);
+	background-color: var(--primary-text-color);
 }
 .footer-text {
 	line-height: 1.5;
@@ -177,6 +176,7 @@ body {
 }
 
 .portfolio-subtitle {
+	color: var(--primary-text-color);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
