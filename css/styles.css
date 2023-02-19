@@ -3,10 +3,12 @@
 	--secondary-font: "Raleway", sans-serif;
 	--primary-text-color: #2e2f42;
 	--secondary-text-color: #434455;
+	--footer-text-color: #e7e9fc;
 	--active-color: #404bbf;
 	--brand-color: #4d5ae5;
 	--primari-page-color: #ffffff;
 	--secondary-page-color: #f4f4fd;
+	--border-color: #e7e9fc;
 }
 body {
 	font-family: var(--primary-font);
@@ -149,7 +151,7 @@ body {
 	background-color: var(--primary-text-color);
 }
 .footer-text {
-	color: #e7e9fc;
+	color: var(--footer-text-color);
 }
 /* Portfolio */
 .portfolio-btn {
@@ -163,7 +165,7 @@ body {
 	letter-spacing: 0.04em;
 	color: var(--brand-color);
 	background-color: var(--secondary-page-color);
-	border: 1px solid #e7e9fc;
+	border: 1px solid var(--border-color);
 	border-radius: 4px;
 	cursor: pointer;
 }
